@@ -4,7 +4,7 @@
 git clone https://github.com/notakaos/yew-app-example
 cd yew-app-example
 rustup target add wasm32-unknown-unknown
-cargo install
+cargo build
 
 brew install trunk
 cargo install wasm-bindgen-cli
